@@ -1,0 +1,339 @@
+html,body {
+	width:100%;
+	height:100%;
+	font-family:PingFang-SC-Bold
+}
+.flex_center_h {
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-box-pack:center;
+	-moz-justify-content:center;
+	-webkit-justify-content:center;
+	justify-content:center;
+	-webkit-box-align:center;
+	-moz-align-items:center;
+	-webkit-align-items:center;
+	align-items:center;
+	-webkit-box-direction:normal;
+	-webkit-box-orient:horizontal;
+	-moz-flex-direction:row;
+	-webkit-flex-direction:row;
+	flex-direction:row
+}
+.flex_between_h {
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-box-pack:justify;
+	-moz-justify-content:space-between;
+	-webkit-justify-content:space-between;
+	justify-content:space-between;
+	-webkit-box-align:center;
+	-moz-align-items:center;
+	-webkit-align-items:center;
+	align-items:center;
+	-webkit-box-direction:normal;
+	-webkit-box-orient:horizontal;
+	-moz-flex-direction:row;
+	-webkit-flex-direction:row;
+	flex-direction:row
+}
+.text_hidden {
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-line-clamp:1;
+	-webkit-box-orient:vertical
+}
+.main {
+	width:100%;
+	height:100%;
+	position:relative
+}
+.main .face_code {
+	width:100%;
+	background:#b00004 url(https://res.youth.cn/20190301/img/bg.png) center top no-repeat;
+	background-size:100% auto;
+	padding-top:2.26rem
+}
+.main .face_code .swiper1 {
+	width:100%;
+	height:.7rem;
+	background:#e74201;
+	position:absolute;
+	left:0;
+	top:0;
+	color:#fff;
+	font-size:.3rem
+}
+.main .face_code .swiper1 .swiper-slide .user_img {
+	width:.5rem;
+	height:.5rem;
+	border-radius:50%;
+	margin-right:.1rem
+}
+.main .face_code .swiper1 .swiper-slide .user_name {
+	max-width:2.5rem;
+	line-height:.4rem
+}
+.main .face_code .swiper1 .swiper-slide .qingdou_number {
+	color:#f9c500;
+	line-height:.4rem
+}
+.main .face_code .subtitle {
+	width:6.6rem;
+	height:.92rem;
+	margin:0 auto;
+	padding-bottom:.3rem;
+	background:url(https://res.youth.cn/20190301/img/subtitle_bg.png) center top no-repeat;
+	background-size:100% auto;
+	text-align:center;
+	line-height:.92rem;
+	color:#FFEA97;
+	font-size:.42rem;
+	font-weight:bolder
+}
+.main .face_code .activit_time {
+	color:#fff;
+	font-size:.34rem;
+	text-align:center;
+	line-height:1
+}
+.main .face_code .reward_btn {
+	width:.6rem;
+	height:2.89rem;
+	position:absolute;
+	right:0;
+	top:4.5rem;
+	z-index:10
+}
+.main .face_code .reward_btn img {
+	width:100%
+}
+.main .face_code .code_bg {
+	width:100%;
+	height:8.22rem;
+	margin:.17rem auto 0;
+	background:url(https://res.youth.cn/20190301/img/code_bg.png) center center no-repeat;
+	background-size:100% auto;
+	position:relative
+}
+.main .face_code .code_bg .code_box {
+	width:4.6rem;
+	height:4.6rem;
+	background:rgba(0,0,0,.2);
+	position:absolute;
+	left:0;
+	right:0;
+	top:.5rem;
+	margin:auto;
+	transform:translateX(.02rem);
+	-weblit-transform:translateX(.02rem)
+}
+.main .face_code .code_bg .code_box img {
+	width:100%;
+	height:100%
+}
+.main .face_code .activit_rule {
+	padding:.3rem .5rem;
+	color:#FDCF79;
+	font-size:.26rem
+}
+.main .face_code .activit_rule .rule_title p {
+	margin:0 .2rem;
+	font-size:.35rem;
+	font-weight:bolder
+}
+.main .face_code .activit_rule .rule_title img {
+	width:.23rem
+}
+.main .face_code .activit_rule>p {
+	margin-top:.5rem
+}
+.main .face_code .activit_rule>p:nth-of-type(1) {
+	margin-top:.3rem
+}
+.main .face_code .activit_rule .rule_desc span {
+	color:#fff
+}
+.main .reward_page {
+	width:100%;
+	height:100%;
+	background:#b00004 url(https://res.youth.cn/20190301/img/list_bg.png) center top no-repeat;
+	background-size:100% auto;
+	position:relative
+}
+.main .reward_page .reward_box {
+	width:5.8rem;
+	height:75%;
+	background:#fff;
+	border-radius:.1rem;
+	position:absolute;
+	left:0;
+	right:0;
+	top:14%;
+	margin:auto;
+	border-style:solid;
+	border-width:.5rem;
+	border-image-source:url(https://res.youth.cn/20190301/img/1.png);
+	border-image-slice:32%;
+	border-image-repeat:round
+}
+.main .reward_page .reward_box .no_reward img {
+	display:block;
+	width:3.09rem;
+	margin:1.1rem auto 0
+}
+.main .reward_page .reward_box .no_reward p {
+	width:5.5rem;
+	margin:.2rem auto 0;
+	text-align:center;
+	color:#111;
+	font-size:.34rem
+}
+.main .reward_page .reward_box .no_reward p:nth-of-type(2) {
+	color:#959595;
+	font-size:.26rem
+}
+.main .reward_page .reward_box .have_reward {
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	color:#8C8C8C;
+	font-size:.32rem
+}
+.main .reward_page .reward_box .have_reward .list_title {
+	width:100%;
+	height:8%;
+	overflow:hidden
+}
+.main .reward_page .reward_box .have_reward .list_title p {
+	width:3.4rem;
+	height:100%;
+	text-align:center
+}
+.main .reward_page .reward_box .have_reward .list_title p:nth-of-type(2) {
+	width:2.2rem
+}
+.main .reward_page .reward_box .have_reward .orange_text,.main .reward_page .reward_box .have_reward .list_title .orange_text,.orange_text {
+	color:#F09966
+}
+.main .reward_page .reward_box .have_reward .reward_list {
+	width:100%;
+	height:91%;
+	overflow:scroll
+}
+.main .reward_page .reward_box .have_reward .reward_list li {
+	margin:.3rem auto;
+	font-size:.3rem
+}
+.main .reward_page .reward_box .have_reward .reward_list li:nth-of-type(1) {
+	margin-top:0
+}
+.main .reward_page .reward_box .have_reward .reward_list li:nth-last-of-type(1) {
+	margin-bottom:0
+}
+.main .reward_page .reward_box .have_reward .reward_list li p {
+	width:3.4rem;
+	line-height:.5rem;
+	text-align:center
+}
+.main .reward_page .reward_box .have_reward .reward_list li p:nth-of-type(2) {
+	width:2.2rem
+}
+.tanchuang_bg {
+	width:100%;
+	height:100%;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:99;
+	background-color:rgba(0,0,0,.8)
+}
+.tanchuang_bg>div {
+	width:6rem;
+	height:8.41rem;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	border-radius:.1rem
+}
+.tanchuang_bg .tc_open {
+	background:url(https://res.youth.cn/20190301/img/tc_open_bg.png) center center no-repeat;
+	background-size:100% 100%;
+	border-radius:.2rem;
+	text-align:center;
+	color:#F3F3BB
+}
+.tanchuang_bg .tc_off {
+	width:.32rem;
+	position:absolute;
+	right:.37rem;
+	top:.28rem
+}
+.tanchuang_bg .zqkd_icon {
+	display:block;
+	width:.9rem;
+	height:.9rem;
+	border-radius:.14rem;
+	margin:1.9rem auto .1rem
+}
+.tanchuang_bg .tc_open p:nth-of-type(1) {
+	font-size:.3rem
+}
+.tanchuang_bg .tc_open p:nth-of-type(2) {
+	font-size:.44rem
+}
+.tanchuang_bg .tc_open p:nth-of-type(3) {
+	color:#F2A377;
+	font-size:.24rem
+}
+.tanchuang_bg .tc_open .open_btn {
+	display:block;
+	width:1.94rem;
+	height:auto;
+	margin:1.2rem auto .5rem
+}
+.tanchuang_bg .tc_reward {
+	background:#fff url(https://res.youth.cn/20190301/img/red_bg.png) center top no-repeat;
+	background-size:100% auto;
+	border-radius:.2rem;
+	text-align:center;
+	color:#000
+}
+.tanchuang_bg .tc_reward p:nth-of-type(1) {
+	font-size:.4rem;
+	margin:.3rem auto .1rem
+}
+.tanchuang_bg .tc_reward p:nth-of-type(2) {
+	font-size:.32rem
+}
+.tanchuang_bg .tc_reward p:nth-of-type(3) {
+	color:#F36050;
+	font-size:.44rem;
+	margin-top:.1rem
+}
+.tanchuang_bg .tc_reward p:nth-of-type(3) span {
+	font-family:SourceHanSansCN-Bold;
+	font-size:.91rem;
+	font-weight:bolder;
+	margin-right:.1rem
+}
+.tanchuang_bg .tc_reward p:nth-of-type(4) {
+	color:#3A4C65;
+	font-size:.3rem;
+	margin-top:1.5rem
+}

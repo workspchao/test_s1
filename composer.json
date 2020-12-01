@@ -1,0 +1,47 @@
+{
+    "description": "ZZ YUN YOU WEIZHUAN",
+    "name": "zzyunyou/yywz_api",
+    "type": "project",
+    "require": {
+        "php": ">=5.3.7",
+        "vlucas/phpdotenv": "^2.0",
+        "phpseclib/phpseclib": "~2.0.0",
+        "guzzlehttp/guzzle": "^6.3.0",
+        "guzzlehttp/psr7": "^1.4.0",
+        "symfony/event-dispatcher": "~2.1",
+        "vlucas/valitron": "^1.4",
+        "aliyuncs/oss-sdk-php": "2.*",
+        "endroid/qrcode": "^3.5",
+        "aliyunmq/mq-http-sdk": ">=1.0.0",
+        "alibabacloud/sdk": "^1.8",
+        "yunpian/yunpian-php-sdk": "^1.0",
+        "phpoffice/phpspreadsheet": "^1.12"
+    },
+    "suggest": {
+        "paragonie/random_compat": "Provides better randomness in PHP 5.x"
+    },
+    "require-dev": {
+        "mikey179/vfsStream": "1.1.*",
+        "phpunit/phpunit": "4.* || 5.*"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "AccountService\\": "application/class/AccountService/",
+            "Common\\": "application/class/Common/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "composer dumpautoload -o"
+        ],
+        "post-update-cmd": [
+            "composer dumpautoload -o"
+        ]
+    }
+}
