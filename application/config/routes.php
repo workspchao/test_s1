@@ -56,8 +56,6 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['(:any)'] = 'home/Home/index';
 
-$route['land/visit'] = 'home/Home/visit';
-
 
 #================================================================================#
 /**
